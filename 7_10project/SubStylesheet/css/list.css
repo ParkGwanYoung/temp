@@ -19,7 +19,7 @@ li a:visited{
 }
 .first_li {
     background-color: #49A450;
-    font-size: 18px;
+    font-weight: bold;
 }
 .list_div{
    
