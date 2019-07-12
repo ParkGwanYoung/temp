@@ -1,0 +1,26 @@
+ul {
+    list-style-type: none;
+    ;
+}
+li {
+    background-color: whitesmoke;
+    margin: 5px;
+    width: 150px;
+    border-radius: 6px;
+}
+li a:link {
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    margin: 3px;
+}
+li a:visited{
+    color: black;
+}
+.first_li {
+    background-color: #49A450;
+    font-size: 18px;
+}
+.list_div{
+   
+}
