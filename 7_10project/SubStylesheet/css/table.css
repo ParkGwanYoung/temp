@@ -7,9 +7,9 @@ th,td {
     vertical-align: left;
 }
 table,td,th{
-    border: 1px solid black;
+    border: 1px solid grey;
 }
-tr:nth-child(odd){
+tr:nth-child(even){
     background-color: #f2f2f2;
 }
 th{
