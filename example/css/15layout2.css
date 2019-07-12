@@ -5,11 +5,12 @@
 }
 .topnav a{ 
     display:inline;
-    color: #f2f2f2;
+    color: black;
     text-align: center;
     padding: 10px 16px;
     text-decoration: none;
 }
+
 .topnav a:hover{
     background-color: #ddd;
     color: black;

@@ -15,12 +15,15 @@ li a:link {
     margin: 3px;
 }
 li a:visited{
+    background-color: #49A450;
+    font-weight: bold;
     color: black;
 }
 .first_li {
     background-color: #49A450;
     font-weight: bold;
 }
+
 .list_div{
    
 }

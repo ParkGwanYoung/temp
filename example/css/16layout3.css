@@ -1,0 +1,15 @@
+*{ box-sizing: border-box; }
+.column {   /*모든 column클래스에 적용해준다*/
+    float: left;
+    padding: 10px;
+    border: 1px solid red;
+}
+.column.side{ /*column side클래스에 적용해준다*/
+    width: 25%;
+}
+.column.middle{ /*column middle클래스에 적용해준다*/
+    width: 50%;
+}
+.row{ 
+    display: inline;/*줄바꿈이 안되고 width height를 지정하지못한다*/
+}
