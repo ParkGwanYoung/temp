@@ -2,10 +2,26 @@
 <html>
     <head>
             <title>StyleSheet2</title>
+            <style>
+                body{background-color: red;}
+                .title{border-radius: 6px;
+                margin: 0;}
+                div.title{padding: 5px;}
+                h1.title{color: white;}
+                p.title{color: white;}
+                h1.title.a:visited{color: red}
+
+                .footer{
+                    color: white;
+                    font-size: 5px;
+                }
+            </style>
     </head>
     <body>
-        <h1>Welcome to My <a href="../main.html">Homepage</a></h1>
-        <p>Use the menu to select different Stylesheets</p>
+        <div class="title">
+            <h1 class="title">Welcome to My <a href="../main.html">Homepage</a></h1>
+            <p class="title">Use the menu to select different Stylesheets</p>
+        </div>
         <ul>
             <li><a href="./Stylesheet1.html">Stylesheet1</a></li>
             <li><a href="./Stylesheet2.html">Stylesheet2</a></li>
@@ -69,5 +85,27 @@
                 </tr>
             </tbody>
         </table>
+        <div class="sidebar">
+                <h3>Side-Bar</h3>
+                    <div>
+                        Always display the navigation pane to the left of the page content
+                        Use a collapsible, "fully automatic" responsive side navigation
+                        Open navigation pane over the left part of the page content
+                        Open navigation pane over all of the page content
+                    </div>
+                </div>
+        
+                <div class="footer">
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                        when an unknown printer took a galley of type and scrambled it to make a type 
+                        specimen book. It has survived not only five centuries, but also the leap into
+                         electronic typesetting, remaining essentially unchanged. It was popularised 
+                         in the 1960s with the release of Letraset sheets containing Lorem 
+                         Ipsum passages, and more recent desktop publishing software like
+                          Aldus PageMaker including versions of Lorem Ipsum.
+                    </p>
+                </div>
     </body>
 </html>
